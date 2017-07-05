@@ -1,0 +1,14 @@
+{
+  "name" : "Test mod",
+  "description" : "Test mode ))))",
+  "author" : "Andrey_best",
+  "updates" : [
+    {
+      "revision" : 1.5,
+      "identifier" : "mymodpd"
+    }
+  ]
+  "hooks" : [
+    { "hook_id" : "lib/managers/chatmanager", "script_path" : "mod.lua"}
+  ]
+}
